@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FEDE9F11CFC88EC00C75EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDE9F01CFC88EC00C75EC5 /* AppDelegate.swift */; };
+		5FEDE9F31CFC88EC00C75EC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDE9F21CFC88EC00C75EC5 /* ViewController.swift */; };
+		5FEDE9F61CFC88EC00C75EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEDE9F41CFC88EC00C75EC5 /* Main.storyboard */; };
+		5FEDE9F81CFC88EC00C75EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FEDE9F71CFC88EC00C75EC5 /* Assets.xcassets */; };
+		5FEDE9FB1CFC88EC00C75EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEDE9F91CFC88EC00C75EC5 /* LaunchScreen.storyboard */; };
+		5FEDEA061CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDEA051CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.swift */; };
+		5FEDEA111CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDEA101CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FEDEA021CFC88EC00C75EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FEDE9E51CFC88EC00C75EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FEDE9EC1CFC88EC00C75EC5;
+			remoteInfo = RAMAnimatedTabBarController;
+		};
+		5FEDEA0D1CFC88EC00C75EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FEDE9E51CFC88EC00C75EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FEDE9EC1CFC88EC00C75EC5;
+			remoteInfo = RAMAnimatedTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FEDE9ED1CFC88EC00C75EC5 /* RAMAnimatedTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAMAnimatedTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEDE9F01CFC88EC00C75EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FEDE9F21CFC88EC00C75EC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FEDE9F51CFC88EC00C75EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FEDE9F71CFC88EC00C75EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FEDE9FA1CFC88EC00C75EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FEDE9FC1CFC88EC00C75EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FEDEA011CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAMAnimatedTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEDEA051CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarControllerTests.swift; sourceTree = "<group>"; };
+		5FEDEA071CFC88EC00C75EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FEDEA0C1CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAMAnimatedTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEDEA101CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarControllerUITests.swift; sourceTree = "<group>"; };
+		5FEDEA121CFC88EC00C75EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FEDE9EA1CFC88EC00C75EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEDE9FE1CFC88EC00C75EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEDEA091CFC88EC00C75EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FEDE9E41CFC88EC00C75EC5 = {
+			isa = PBXGroup;
+			children = (
+				5FEDE9EF1CFC88EC00C75EC5 /* RAMAnimatedTabBarController */,
+				5FEDEA041CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests */,
+				5FEDEA0F1CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests */,
+				5FEDE9EE1CFC88EC00C75EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FEDE9EE1CFC88EC00C75EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FEDE9ED1CFC88EC00C75EC5 /* RAMAnimatedTabBarController.app */,
+				5FEDEA011CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.xctest */,
+				5FEDEA0C1CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FEDE9EF1CFC88EC00C75EC5 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				5FEDE9F01CFC88EC00C75EC5 /* AppDelegate.swift */,
+				5FEDE9F21CFC88EC00C75EC5 /* ViewController.swift */,
+				5FEDE9F41CFC88EC00C75EC5 /* Main.storyboard */,
+				5FEDE9F71CFC88EC00C75EC5 /* Assets.xcassets */,
+				5FEDE9F91CFC88EC00C75EC5 /* LaunchScreen.storyboard */,
+				5FEDE9FC1CFC88EC00C75EC5 /* Info.plist */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		5FEDEA041CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FEDEA051CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.swift */,
+				5FEDEA071CFC88EC00C75EC5 /* Info.plist */,
+			);
+			path = RAMAnimatedTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		5FEDEA0F1CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FEDEA101CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.swift */,
+				5FEDEA121CFC88EC00C75EC5 /* Info.plist */,
+			);
+			path = RAMAnimatedTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FEDE9EC1CFC88EC00C75EC5 /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEDEA151CFC88EC00C75EC5 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				5FEDE9E91CFC88EC00C75EC5 /* Sources */,
+				5FEDE9EA1CFC88EC00C75EC5 /* Frameworks */,
+				5FEDE9EB1CFC88EC00C75EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = 5FEDE9ED1CFC88EC00C75EC5 /* RAMAnimatedTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FEDEA001CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEDEA181CFC88EC00C75EC5 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControllerTests" */;
+			buildPhases = (
+				5FEDE9FD1CFC88EC00C75EC5 /* Sources */,
+				5FEDE9FE1CFC88EC00C75EC5 /* Frameworks */,
+				5FEDE9FF1CFC88EC00C75EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FEDEA031CFC88EC00C75EC5 /* PBXTargetDependency */,
+			);
+			name = RAMAnimatedTabBarControllerTests;
+			productName = RAMAnimatedTabBarControllerTests;
+			productReference = 5FEDEA011CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FEDEA0B1CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEDEA1B1CFC88EC00C75EC5 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControllerUITests" */;
+			buildPhases = (
+				5FEDEA081CFC88EC00C75EC5 /* Sources */,
+				5FEDEA091CFC88EC00C75EC5 /* Frameworks */,
+				5FEDEA0A1CFC88EC00C75EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FEDEA0E1CFC88EC00C75EC5 /* PBXTargetDependency */,
+			);
+			name = RAMAnimatedTabBarControllerUITests;
+			productName = RAMAnimatedTabBarControllerUITests;
+			productReference = 5FEDEA0C1CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FEDE9E51CFC88EC00C75EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KumagaiNaoki;
+				TargetAttributes = {
+					5FEDE9EC1CFC88EC00C75EC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5FEDEA001CFC88EC00C75EC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5FEDE9EC1CFC88EC00C75EC5;
+					};
+					5FEDEA0B1CFC88EC00C75EC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5FEDE9EC1CFC88EC00C75EC5;
+					};
+				};
+			};
+			buildConfigurationList = 5FEDE9E81CFC88EC00C75EC5 /* Build configuration list for PBXProject "RAMAnimatedTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FEDE9E41CFC88EC00C75EC5;
+			productRefGroup = 5FEDE9EE1CFC88EC00C75EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FEDE9EC1CFC88EC00C75EC5 /* RAMAnimatedTabBarController */,
+				5FEDEA001CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests */,
+				5FEDEA0B1CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FEDE9EB1CFC88EC00C75EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEDE9FB1CFC88EC00C75EC5 /* LaunchScreen.storyboard in Resources */,
+				5FEDE9F81CFC88EC00C75EC5 /* Assets.xcassets in Resources */,
+				5FEDE9F61CFC88EC00C75EC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEDE9FF1CFC88EC00C75EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEDEA0A1CFC88EC00C75EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FEDE9E91CFC88EC00C75EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEDE9F31CFC88EC00C75EC5 /* ViewController.swift in Sources */,
+				5FEDE9F11CFC88EC00C75EC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEDE9FD1CFC88EC00C75EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEDEA061CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEDEA081CFC88EC00C75EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEDEA111CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FEDEA031CFC88EC00C75EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FEDE9EC1CFC88EC00C75EC5 /* RAMAnimatedTabBarController */;
+			targetProxy = 5FEDEA021CFC88EC00C75EC5 /* PBXContainerItemProxy */;
+		};
+		5FEDEA0E1CFC88EC00C75EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FEDE9EC1CFC88EC00C75EC5 /* RAMAnimatedTabBarController */;
+			targetProxy = 5FEDEA0D1CFC88EC00C75EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FEDE9F41CFC88EC00C75EC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FEDE9F51CFC88EC00C75EC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FEDE9F91CFC88EC00C75EC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FEDE9FA1CFC88EC00C75EC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FEDEA131CFC88EC00C75EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FEDEA141CFC88EC00C75EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FEDEA161CFC88EC00C75EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RAMAnimatedTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.RAMAnimatedTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FEDEA171CFC88EC00C75EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RAMAnimatedTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.RAMAnimatedTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FEDEA191CFC88EC00C75EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RAMAnimatedTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.RAMAnimatedTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAMAnimatedTabBarController.app/RAMAnimatedTabBarController";
+			};
+			name = Debug;
+		};
+		5FEDEA1A1CFC88EC00C75EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RAMAnimatedTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.RAMAnimatedTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAMAnimatedTabBarController.app/RAMAnimatedTabBarController";
+			};
+			name = Release;
+		};
+		5FEDEA1C1CFC88EC00C75EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RAMAnimatedTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.RAMAnimatedTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RAMAnimatedTabBarController;
+			};
+			name = Debug;
+		};
+		5FEDEA1D1CFC88EC00C75EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RAMAnimatedTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.RAMAnimatedTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RAMAnimatedTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FEDE9E81CFC88EC00C75EC5 /* Build configuration list for PBXProject "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEDEA131CFC88EC00C75EC5 /* Debug */,
+				5FEDEA141CFC88EC00C75EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEDEA151CFC88EC00C75EC5 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEDEA161CFC88EC00C75EC5 /* Debug */,
+				5FEDEA171CFC88EC00C75EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FEDEA181CFC88EC00C75EC5 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEDEA191CFC88EC00C75EC5 /* Debug */,
+				5FEDEA1A1CFC88EC00C75EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FEDEA1B1CFC88EC00C75EC5 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEDEA1C1CFC88EC00C75EC5 /* Debug */,
+				5FEDEA1D1CFC88EC00C75EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FEDE9E51CFC88EC00C75EC5 /* Project object */;
+}
