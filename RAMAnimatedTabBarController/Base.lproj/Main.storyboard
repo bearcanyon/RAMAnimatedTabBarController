@@ -1,25 +1,82 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cym-gt-D1D">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RAMAnimatedTabBarController" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="Pic.png" id="gce-Ib-hd7" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="ZDM-gC-Hom" id="T0C-W1-Cu4"/>
+                        </connections>
+                    </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="ZDM-gC-Hom" customClass="RAMFlipBottomTransitionItemAnimations" customModule="RAMAnimatedTabBarController" customModuleProvider="target"/>
             </objects>
+            <point key="canvasLocation" x="1134.5" y="170.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CXs-Wr-k96">
+            <objects>
+                <viewController id="JNS-w6-Doy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PG2-ct-Cik"/>
+                        <viewControllerLayoutGuide type="bottom" id="69W-gp-25a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TeR-VF-fml">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.5154686936986923" blue="0.099871815309024559" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" image="Post.png" selectedImage="Pic.png" id="F5E-Vl-Ps9" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="1YE-hW-nx0" id="UKn-Eu-dv6"/>
+                        </connections>
+                    </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kYK-Ph-ZUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="1YE-hW-nx0" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="1134.5" y="937.5"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="KJP-Dd-qrd">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cym-gt-D1D" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="sgn-B0-Ue6">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="8Jl-Ao-98I"/>
+                        <segue destination="JNS-w6-Doy" kind="relationship" relationship="viewControllers" id="yfh-Rm-70o"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zd2-nw-RMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="695.5" y="170.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Pic.png" width="44" height="44"/>
+        <image name="Post.png" width="27" height="44"/>
+    </resources>
 </document>

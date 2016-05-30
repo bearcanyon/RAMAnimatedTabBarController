@@ -1,0 +1,10 @@
+PODS:
+  - RAMAnimatedTabBarController (1.4.0)
+
+DEPENDENCIES:
+  - RAMAnimatedTabBarController
+
+SPEC CHECKSUMS:
+  RAMAnimatedTabBarController: 6f221d7dc647b4266c9e05618c84b5639f190297
+
+COCOAPODS: 0.39.0

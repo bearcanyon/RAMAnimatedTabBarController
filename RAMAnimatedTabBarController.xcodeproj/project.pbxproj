@@ -14,6 +14,9 @@
 		5FEDE9FB1CFC88EC00C75EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEDE9F91CFC88EC00C75EC5 /* LaunchScreen.storyboard */; };
 		5FEDEA061CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDEA051CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests.swift */; };
 		5FEDEA111CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDEA101CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.swift */; };
+		5FEDEA221CFC8C9100C75EC5 /* Pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FEDEA201CFC8C9100C75EC5 /* Pic@2x.png */; };
+		5FEDEA231CFC8C9100C75EC5 /* Post@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FEDEA211CFC8C9100C75EC5 /* Post@2x.png */; };
+		629BCD7AA4410C6027E87D5B /* Pods_RAMAnimatedTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655D71EB8ED44FFF9B32A32E /* Pods_RAMAnimatedTabBarController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,11 @@
 		5FEDEA0C1CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAMAnimatedTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEDEA101CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarControllerUITests.swift; sourceTree = "<group>"; };
 		5FEDEA121CFC88EC00C75EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FEDEA201CFC8C9100C75EC5 /* Pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pic@2x.png"; sourceTree = "<group>"; };
+		5FEDEA211CFC8C9100C75EC5 /* Post@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Post@2x.png"; sourceTree = "<group>"; };
+		655D71EB8ED44FFF9B32A32E /* Pods_RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8652EC6A50DA22AD8CCA9B /* Pods-RAMAnimatedTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAMAnimatedTabBarController.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAMAnimatedTabBarController/Pods-RAMAnimatedTabBarController.release.xcconfig"; sourceTree = "<group>"; };
+		8523C217F8E35F968AF963DC /* Pods-RAMAnimatedTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAMAnimatedTabBarController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAMAnimatedTabBarController/Pods-RAMAnimatedTabBarController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629BCD7AA4410C6027E87D5B /* Pods_RAMAnimatedTabBarController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3550103FFF41A0EB3B7C455E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				655D71EB8ED44FFF9B32A32E /* Pods_RAMAnimatedTabBarController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5FEDE9E41CFC88EC00C75EC5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				5FEDEA041CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerTests */,
 				5FEDEA0F1CFC88EC00C75EC5 /* RAMAnimatedTabBarControllerUITests */,
 				5FEDE9EE1CFC88EC00C75EC5 /* Products */,
+				D6C7D2CA73FBB135DDD2AAE2 /* Pods */,
+				3550103FFF41A0EB3B7C455E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,8 @@
 		5FEDE9EF1CFC88EC00C75EC5 /* RAMAnimatedTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				5FEDEA201CFC8C9100C75EC5 /* Pic@2x.png */,
+				5FEDEA211CFC8C9100C75EC5 /* Post@2x.png */,
 				5FEDE9F01CFC88EC00C75EC5 /* AppDelegate.swift */,
 				5FEDE9F21CFC88EC00C75EC5 /* ViewController.swift */,
 				5FEDE9F41CFC88EC00C75EC5 /* Main.storyboard */,
@@ -125,6 +146,15 @@
 			path = RAMAnimatedTabBarControllerUITests;
 			sourceTree = "<group>";
 		};
+		D6C7D2CA73FBB135DDD2AAE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8523C217F8E35F968AF963DC /* Pods-RAMAnimatedTabBarController.debug.xcconfig */,
+				6A8652EC6A50DA22AD8CCA9B /* Pods-RAMAnimatedTabBarController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FEDEA151CFC88EC00C75EC5 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
 			buildPhases = (
+				A7E0228DD01E39074D065A26 /* Check Pods Manifest.lock */,
 				5FEDE9E91CFC88EC00C75EC5 /* Sources */,
 				5FEDE9EA1CFC88EC00C75EC5 /* Frameworks */,
 				5FEDE9EB1CFC88EC00C75EC5 /* Resources */,
+				90131C2E7F906BCEE07831AC /* Embed Pods Frameworks */,
+				89F883ADF0E4A9DB2A98B9A2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +265,8 @@
 				5FEDE9FB1CFC88EC00C75EC5 /* LaunchScreen.storyboard in Resources */,
 				5FEDE9F81CFC88EC00C75EC5 /* Assets.xcassets in Resources */,
 				5FEDE9F61CFC88EC00C75EC5 /* Main.storyboard in Resources */,
+				5FEDEA231CFC8C9100C75EC5 /* Post@2x.png in Resources */,
+				5FEDEA221CFC8C9100C75EC5 /* Pic@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +285,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89F883ADF0E4A9DB2A98B9A2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAMAnimatedTabBarController/Pods-RAMAnimatedTabBarController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90131C2E7F906BCEE07831AC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAMAnimatedTabBarController/Pods-RAMAnimatedTabBarController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E0228DD01E39074D065A26 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5FEDE9E91CFC88EC00C75EC5 /* Sources */ = {
@@ -397,6 +480,7 @@
 		};
 		5FEDEA161CFC88EC00C75EC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8523C217F8E35F968AF963DC /* Pods-RAMAnimatedTabBarController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RAMAnimatedTabBarController/Info.plist;
@@ -408,6 +492,7 @@
 		};
 		5FEDEA171CFC88EC00C75EC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8652EC6A50DA22AD8CCA9B /* Pods-RAMAnimatedTabBarController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RAMAnimatedTabBarController/Info.plist;
@@ -482,6 +567,7 @@
 				5FEDEA171CFC88EC00C75EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FEDEA181CFC88EC00C75EC5 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +576,7 @@
 				5FEDEA1A1CFC88EC00C75EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FEDEA1B1CFC88EC00C75EC5 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +585,7 @@
 				5FEDEA1D1CFC88EC00C75EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
